@@ -726,7 +726,7 @@ is too big a fix and needs to be done in a new design iteration.
     align-items: center;
     margin: 0;
     max-height: 0;
-    overflow: hidden;
+    @import 'docs/css/normalize.css';
     transition: max-height 0.2s ease-out;
     flex-basis: 100%;
 }
